@@ -1,0 +1,223 @@
+@media only screen and (min-width:768px) {
+    .heroImage {
+        width: 50%;
+    }
+
+    .project-2 {
+
+        width: 23%;
+    }
+
+    .emailborder {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .flexColumn {
+        flex-direction: column;
+    }
+
+    .faceImageBox {
+        padding: 0%;
+        margin-left: 10%;
+    }
+
+    .faceimageBox {
+        width: 20%;
+    }
+
+    .touch {
+        padding: 15px 10px;
+    }
+
+    .testimonialText {
+        margin: 0%;
+    }
+
+    .clientBox {
+        flex-direction: column;
+    }
+
+    .projectBox {
+        flex-direction: column;
+    }
+
+    .viewBox {
+        padding: 0%;
+        padding-left: 30px;
+        width: 83%;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .video {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .gap {
+        gap: 30px;
+    }
+
+    .headerLeft {
+        display: none;
+    }
+
+    .name {
+        padding: 0%;
+    }
+
+    .Email {
+        padding: 0%;
+    }
+
+    .submitBox {
+        width: 85%;
+    }
+
+    .message {
+        padding: 0%;
+        padding-bottom: 50px;
+    }
+
+    .video {
+        height: 100%;
+        width: 100%;
+    }
+
+    .box-3 {
+        width: 100%;
+    }
+
+    .gridBox {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .gridbox {
+        flex-direction: column;
+    }
+
+    .project-1 {
+        padding: 15px 23px;
+    }
+
+    .project-2 {
+        padding: 15px 23px;
+        width: 57%;
+    }
+
+    .hoverBox {
+        gap: 10px;
+    }
+
+    .talk {
+        padding: 15px 23px;
+    }
+
+    .imageBox {
+        padding: 0%;
+    }
+
+    .tex {
+        font-size: 25px;
+    }
+
+    .para {
+        width: 100%;
+    }
+
+    .headerMiddle {
+        height: 125%;
+    }
+
+    .headerMiddle {
+        background-color: aliceblue;
+    }
+
+    .ageborder {
+        width: 25%;
+
+    }
+
+    .emailborder {
+        width: 65%;
+    }
+
+    .locationborder {
+        width: 40%;
+    }
+
+    .experienceborder {
+        width: 50%;
+    }
+
+    .middleText {
+        padding-top: 70px;
+        padding-left: 20px;
+    }
+
+    .heroimageBox {
+        height: 450px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .navBar {
+        display: none;
+    }
+
+    .gridBox {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        padding-top: 20px;
+    }
+
+    .project-2 {
+
+        width: 60%;
+    }
+
+    .imageBox {
+        padding-top: 20px;
+    }
+
+    .tex {
+        font-size: 50px;
+    }
+
+    .tex-1 {
+        font-size: 50px;
+    }
+
+    .para {
+        width: 90%;
+    }
+
+    .headerMiddle {
+        background-color: aliceblue;
+    }
+
+    .project {
+        padding: 15px 20px;
+        font-size: 12px;
+    }
+
+    .talk {
+        padding: 15px 20px;
+        font-size: 12px;
+    }
+
+    .heroImage {
+        width: 90%;
+    }
+
+    .aboutbox-3 {
+        width: 28%;
+    }
+}

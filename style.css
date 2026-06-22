@@ -1,0 +1,553 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.headerLeft {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-right: 1px solid lightgray;
+    animation: forwards 1s fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.imageBox {
+    padding-top: 15px;
+}
+
+.border-1 {
+    border-bottom: 2px solid grey;
+}
+
+.experienceborder {
+    width: 75%;
+}
+
+.borderline {
+    width: 38%;
+}
+
+.borderline2 {
+    width: 60%;
+}
+
+.image {
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #a5a6ff;
+}
+
+.iconBox {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icon {
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.heroimageBox {
+    background-color: aliceblue;
+    height: 640px;
+    animation: forwards 1s fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.text {
+    display: flex;
+    gap: 10px;
+}
+
+.animation {
+    animation: float 2s ease-in-out infinite;
+
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.middleText {
+    padding-top: 70px;
+    padding-left: 50px;
+    animation: forwards 1s fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.textbox {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.indigo {
+
+    color: #a5a6ff;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.midnightblue {
+    color: #130f49;
+    text-decoration: none;
+    list-style: none;
+}
+
+.para {
+    width: 50%;
+    padding-top: 10px;
+    color: #130f49;
+    text-align: justify;
+}
+
+.homeBox {
+    cursor: pointer;
+}
+
+.project-1 {
+    border: 1px solid gray;
+    padding: 15px 50px;
+    background-color: #130f49;
+    color: whitesmoke;
+    font-size: 15px;
+    border-radius: 5px;
+    word-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.project-1:hover {
+    background-color: mintcream;
+    color: gray;
+}
+
+.hoverBox {
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+    word-spacing: 3px;
+    padding-bottom: 50px;
+}
+
+.talk {
+    border: 1px solid gray;
+    padding: 15px 40px;
+    background-color: mintcream;
+    border-radius: 5px;
+    color: gray;
+    word-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.talk:hover {
+    background-color: #130f49;
+    color: whitesmoke;
+}
+
+.information {
+    font-size: 15px;
+    color: #130f49;
+    border-left: 4px solid orange;
+    padding: 10px 10px 1px 10px;
+    width: 55%;
+}
+
+.email:hover {
+    color: orange;
+    width: 25%;
+    cursor: pointer;
+}
+
+.address:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.phone:hover {
+    color: orange;
+    cursor: pointer;
+
+}
+
+.heroImage {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+
+.project-2 {
+    border: 1px solid gray;
+    padding: 15px 50px;
+    background-color: #130f49;
+    color: whitesmoke;
+    font-size: 15px;
+    border-radius: 5px;
+    word-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.project {
+    padding-left: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.project-2:hover {
+    background-color: mintcream;
+    color: gray;
+}
+
+.orange {
+    color: orange;
+}
+
+.nishanth {
+    color: #130f49;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.gridbox {
+    display: flex;
+
+    gap: 30px;
+    padding: 50px 20px 100px 20px;
+    text-align: center;
+}
+
+.aboutbox-1:hover {
+    transform: scale(1.1);
+}
+
+.aboutbox-2:hover {
+    transform: scale(1.1);
+}
+
+.aboutbox-3:hover {
+    transform: scale(1.1);
+}
+
+.aboutbox-1 {
+    padding: 50px;
+    background-color: aliceblue;
+    transition: transform 1s;
+}
+
+.aboutbox-2 {
+    padding: 50px;
+    background-color: beige;
+    transition: transform 1s;
+}
+
+.aboutbox-3 {
+    padding: 50px;
+    background-color: lightcyan;
+    transition: transform 1s;
+    width: 100%;
+}
+
+.back-1 {
+    background-color: aliceblue;
+}
+
+.boxColour:hover {
+    transform: scale(1.1);
+    background-color: whitesmoke;
+}
+
+.boxColour {
+    transition: transform 1s;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.gap {
+    gap: 40%;
+}
+
+.grey {
+    color: grey;
+    text-align: justify;
+}
+
+.textPara {
+    text-align: justify;
+}
+
+.menu {
+    list-style: none;
+    text-decoration: none;
+}
+
+.age:hover {
+    color: orange;
+
+    cursor: pointer;
+}
+
+.place:hover {
+    color: orange;
+
+    cursor: pointer;
+}
+
+.experience:hover {
+    color: orange;
+
+    cursor: pointer;
+}
+
+.education:hover {
+    color: orange;
+
+    cursor: pointer;
+}
+
+.ServiceBox {
+    border: 1px solid lightgrey;
+    padding: 20px;
+    border-radius: 5px;
+    transition: transform 1s;
+}
+
+
+.ServiceBox:hover {
+    transform: scale(1.1);
+    background-color: whitesmoke;
+}
+
+.style {
+    color: #130f49;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.video {
+    /* width: 100%;
+    height: 200%; */
+    margin: 0px 48px;
+    padding: 0px 20px;
+    border-radius: 5px;
+}
+
+.projectBox {
+    padding-top: 50px;
+    justify-content: space-around;
+    transition: transform 1s;
+}
+
+.viewBox {
+    padding-top: 50px;
+    justify-content: space-around;
+    padding-left: 38%;
+    width: 60%;
+    padding-bottom: 50px;
+}
+
+.view {
+    border: 1px solid gray;
+    padding: 15px 50px;
+    background-color: #130f49;
+    color: whitesmoke;
+    font-size: 15px;
+    border-radius: 5px;
+    word-spacing: 1px;
+    cursor: pointer;
+}
+
+.view:hover {
+    background-color: mintcream;
+    color: gray;
+}
+
+.img {
+    width: 100%;
+    height: 80%;
+    padding-bottom: 30px;
+    transition: transform 1s;
+}
+
+.img:hover {
+    transform: scale(1.1);
+}
+
+.clientBox {
+    justify-content: space-around;
+}
+
+.box-1 {
+    width: 100%;
+    border-right: 1px solid lightgray;
+
+}
+
+.box-2 {
+    width: 100%;
+    border-right: 1px solid lightgray;
+}
+
+.box-3 {
+    width: 100%;
+    border-right: 1px solid lightgray;
+}
+
+.box-4 {
+    width: 100%;
+}
+
+.testimonialText {
+    text-align: center;
+    margin: 0px 100px;
+    font-size: 20px;
+}
+
+.faceImage {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+
+.faceImageBox {
+    align-items: center;
+    gap: 20px;
+    padding-left: 19%;
+    margin-left: 18%;
+}
+
+.faceimageBox {
+    width: 10%
+}
+
+.back-2 {
+    background-color: #fff5f6;
+    height: 550px;
+}
+
+.touchBox {
+    padding-top: 30px;
+    justify-content: space-around;
+
+    width: 77%;
+    padding-bottom: 50px;
+}
+
+.touch {
+    border: 1px solid gray;
+    padding: 15px 48px;
+    background-color: #130f49;
+    color: whitesmoke;
+    font-size: 15px;
+    border-radius: 5px;
+    word-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.touch:hover {
+    background-color: mintcream;
+    color: gray;
+}
+
+.date:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.contact {
+    border-left: 4px solid orange;
+
+}
+
+.name {
+    padding: 10px 200px 10px 10px;
+    text-align: start;
+}
+
+.Email {
+    padding: 10px 200px 10px 10px;
+    text-align: start;
+}
+
+.message {
+    padding: 10px 200px 100px 10px;
+}
+
+.submitBox {
+    width: 45%;
+}
+
+.submit {
+    border: 1px solid gray;
+    padding: 15px 50px;
+    background-color: #130f49;
+    color: whitesmoke;
+    font-size: 15px;
+    border-radius: 5px;
+    word-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.submit:hover {
+    background-color: mintcream;
+    color: gray;
+}
+
+/* .testimonialBox-1{
+    position: absolute;
+    top: 10px;
+} */
